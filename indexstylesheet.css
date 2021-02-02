@@ -1,0 +1,118 @@
+                        /* indexStyle.css */
+                        
+                        body {
+                            background-image: url("back.jpg");
+                        }
+                        
+                        h1 {
+                            color: #3358ff;
+                            text-align: center;
+                            font: italic 200% fantasy;
+                        }
+                        
+                        h2 {
+                            text-align: center;
+                            color: palevioletred
+                        }
+                        
+                        h3 {
+                            text-align: left;
+                            color: #ff7e33;
+                            font-size: 20px;
+                        }
+                        
+                        p {
+                            display: none;
+                            padding: 20px;
+                            background-color: #ff8533;
+                            color: #333300;
+                            text-align: left;
+                            border: 3px groove #FFFF33;
+                        }
+                        
+                        span.word {
+                            color: red;
+                            font-weight: bold;
+                        }
+                        
+                        img {
+                            width: 400px;
+                            height: 400px;
+                            margin-left: 500px;
+                        }
+                        
+                        table {
+                            align: center;
+                            width: 700px;
+                            height: 200px;
+                            color: #3341ff;
+                        }
+                        
+                        th {
+                            font-size: 20px;
+                            color: #ff33ff;
+                            width: 100px
+                        }
+                        
+                        td {
+                            font-size: 20px;
+                        }
+                        
+                        tr:nth-child(odd) {
+                            background-color: #cccccc;
+                        }
+                        
+                        li {
+                            color: #3633ffe7;
+                            font-size: 20px;
+                        }
+                        
+                        li li {
+                            color: black
+                        }
+                        
+                        .divStyle {
+                            background-color: #e6f5ee;
+                            border: 5px solid #0d9900;
+                        }
+                        
+                        a.hoverLinks:hover {
+                            color: #ff0080;
+                        }
+                        
+                        div.mandela:hover {
+                            background-image: url("mandela2.jpg");
+                            margin-left: 200px;
+                            height: 300px;
+                        }
+                        
+                        div.review {
+                            background-color: #eae6f5;
+                            border: 10px solid #0d9900;
+                            font: 100px;
+                            height: 50px;
+                            width: 1050px;
+                            margin-left: 200px;
+                        }
+                        
+                        table:hover p {
+                            display: block;
+                        }
+                        
+                        div {
+                            height: 150px;
+                            width: 1050px;
+                            margin-left: 100px;
+                            background-color: #e8f5e6;
+                            border: 10px solid #969900;
+                        }
+                        
+                        a {
+                            font-size: 20px;
+                        }
+                        
+                        div.css {
+                            height: 20px;
+                            width: 200px;
+                            margin-left: 1100px;
+                        }
