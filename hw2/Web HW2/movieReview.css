@@ -1,0 +1,139 @@
+/*movieReviewStyleSheet*/
+
+
+/* Name: Rachid Bodson
+   Section: Tue/Thur
+   Description: A movie review of TMNT (2007)
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("./images/background.png");
+}
+
+nav {
+    background-image: url("./images/bannerbackground.png");
+    margin-bottom: 20px;
+}
+
+header {
+    text-align: center;
+}
+
+.banner {
+    background-image: url("./images/rottenbackground.png");
+    text-align: left;
+    height: 80px;
+}
+
+img.a {
+    width: 80px;
+    height: 70px;
+}
+
+.item {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 5px;
+}
+
+.main-div {
+    margin: 0 auto;
+    border: 4px solid gray;
+    max-width: 800px;
+}
+
+.display {
+    display: flex;
+}
+
+.general {
+    height: 420px;
+    width: 250px;
+    background-image: url("./images/generaloverview.png");
+    text-align: right;
+}
+
+.review {
+    border: 2px solid gray;
+    background-color: #E1D697;
+    padding: 5px;
+    font-family: Verdana, Tahoma;
+    font-weight: bold;
+    font-size: 8pt;
+    margin: 1em;
+}
+
+.review-meta {
+    display: flex;
+    padding-top: 10px;
+}
+
+.commentor {
+    font-family: Verdana, Tahoma;
+    font-size: 9pt;
+}
+
+.review-percentage {
+    color: red;
+    font-weight: bold;
+    font-size: 5em;
+}
+
+.total-reviews {
+    color: white;
+}
+
+.container {
+    box-sizing: border-box;
+    margin: 5px;
+    width: calc(50% - 10px);
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+}
+
+.movieInfoBack {
+    background-color: #A2B964;
+}
+
+.movieInfo {
+    padding: 10px;
+}
+
+.movieInfo>p:first-of-type {
+    font-weight: bold;
+    margin: 0;
+}
+
+.movieInfo>p {
+    margin-left: 40px;
+    font-size: 8pt;
+    font-family: Arial;
+}
+
+.footer {
+    text-align: center;
+    background-color: #A2B964;
+}
+
+.italic {
+    font-style: italic;
+}
+
+img.b {
+    vertical-align: text-top;
+}
+
+#validators_w3sc {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
