@@ -13,11 +13,11 @@
 }
 
 body {
-    background-image: url("./images/background.png");
+    background-image: url("./img/background.png");
 }
 
 nav {
-    background-image: url("./images/bannerbackground.png");
+    background-image: url("./img/bannerbackground.png");
     margin-bottom: 20px;
 }
 
@@ -26,7 +26,7 @@ header {
 }
 
 .banner {
-    background-image: url("./images/rottenbackground.png");
+    background-image: url("./img/rottenbackground.png");
     text-align: left;
     height: 80px;
 }
@@ -55,7 +55,7 @@ img.a {
 .general {
     height: 420px;
     width: 250px;
-    background-image: url("./images/generaloverview.png");
+    background-image: url("./img/generaloverview.png");
     text-align: right;
 }
 
