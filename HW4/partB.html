@@ -1,0 +1,43 @@
+<html>
+
+<head>
+    <title>Card Matching Game</title>
+    <link href="partB.css" type="text/css" rel="stylesheet" />
+    <link href="style.css" type="text/css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+    <div class="content">
+        <br><br>
+
+
+
+        <header>
+            <h1 style="color:white">Card Matching Game</h1>
+        </header>
+
+        <ul class="instructions">
+            <p>Instructions</p>
+            <li>There are three levels of difficulty easy, medium and hard.</li>
+            <li>You must choose a diffculty level in the beginning before you can play.</li>
+            <li>In easy mode, you have 3 seconds to view the images before they flip over. You have 16 tiles and 120 seconds to complete the game.</li>
+            <li>In medium mode, you have 5 seconds to view the images before they flip over. You have 20 tiles and 150 seconds to complete the game.</li>
+            <li>In hard mode, you have 8 seconds to view the images before they flip over you have 24 tiles and 180 seconds to complete the game.</li>
+            <li>Click Start Game to begin.</li>
+        </ul>
+
+        <input type="radio" id="easy" name="numPics" value="8" onclick='radioCheck()'> Easy &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio" id="medium" name="numPics" value="10" onclick='radioCheck()'> Medium &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio" id="hard" name="numPics" value="12" onclick='radioCheck()'> Hard <br><br>
+        <button id="startButton" onclick='startGame()'>Start Game</button>
+
+        <p id="timer"></p>
+        <div id="board"></div>
+        <script src='partB.js'></script>
+    </div>
+
+</body>
+
+</html>

@@ -1,7 +1,7 @@
                         /* indexStyle.css */
                         
                         body {
-                            background-image: url("back.jpg");
+                            background-image: url("back2.jpg");
                         }
                         
                         h1 {
@@ -17,7 +17,7 @@
                         
                         h3 {
                             text-align: left;
-                            color: #ff7e33;
+                            color: #33ff4e;
                             font-size: 20px;
                         }
                         
@@ -48,21 +48,12 @@
                             color: #3341ff;
                         }
                         
-                        th {
-                            font-size: 20px;
-                            color: #ff33ff;
-                            width: 100px
-                        }
-                        
                         td {
                             font-size: 20px;
                         }
                         
-                        tr:nth-child(odd) {
-                            background-color: #cccccc;
-                        }
-                        
                         li {
+                            font-weight: bolder;
                             color: #3633ffe7;
                             font-size: 20px;
                         }
@@ -113,6 +104,6 @@
                         
                         div.css {
                             height: 20px;
-                            width: 200px;
+                            width: 100px;
                             margin-left: 1100px;
                         }

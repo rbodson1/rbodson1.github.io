@@ -1,0 +1,78 @@
+body {
+    background-image: url("background1.jpg");
+}
+
+h1 {
+    text-align: center;
+    color: Gold;
+    font-family: bold;
+}
+
+h3 {
+    text-align: center;
+    color: black;
+}
+
+.content {
+    width: 955px;
+    border-radius: 25px 25px 25px 25px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: -50px;
+    text-align: center;
+}
+
+.button {
+    background-color: #3bd943;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.button:active {
+    position: relative;
+    border-radius: 10px;
+    top: 1px;
+    left: 1px;
+    background: #D9853B;
+    outline: none;
+    -webkit-box-shadow: inset 0px 0px 4px #ccc;
+    -moz-box-shadow: inset 0px 0px 4px #ccc;
+    box-shadow: inset 0px 0px 4px #ccc;
+}
+
+.select {
+    background-color: #3bd943;
+    color: white;
+    font-size: larger;
+}
+
+.grid {
+    margin: 15px;
+}
+
+table {
+    margin: 0 auto;
+    border: 1px solid black;
+    table-layout: fixed;
+}
+
+td {
+    background: white;
+    margin: 0px;
+    -moz-box-shadow: inset 1px 1px 1px rgba(255, 255, 255, .4), inset -1px -1px 1px rgba(0, 0, 0, .4);
+    -webkit-box-shadow: inset 1px 1px 1px rgba(255, 255, 255, .4), inset -1px -1px 1px rgba(0, 0, 0, .4);
+    box-shadow: inset 1px 1px 1px rgba(255, 255, 255, .4), inset -1px -1px 1px rgba(0, 0, 0, .4);
+}
+
+td:hover {
+    background: rgb(112, 110, 110);
+}

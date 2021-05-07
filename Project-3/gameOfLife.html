@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="gameOfLife.css" />
+
+    <script type="text/javascript" src="gameOfLife.js"></script>
+    <title>Game of Life</title>
+</head>
+
+<body onload="initGrid()">
+    <h1>Game of Life</h1><br>
+    <div class="content">
+
+        <div class="grid" id="grid"></div>
+
+        <div>
+            <h3 style="color:rgb(234, 243, 107)" id="generationDisplay"></h3>
+
+        </div>
+
+        <button class="button" onclick="start()" tabindex="5">Start</button>
+        <button class="button" onclick="stop()" tabindex="6">Stop</button>
+        <button class="button" onclick="generationCount(1)" tabindex="1">Increment 1 Generation</button>
+        <button class="button" onclick="generationCount(23)" tabindex="2">Increment 23 Generations</button>
+        <button class="button" onclick="reset()" tabindex="3">Reset</button>
+        <button class="button" onclick="logout()" tabindex="3">Logout</button> <br><br>
+
+        <select class="select" id="chooseGrid" tabindex="4" onChange="changeGridSize(this)">
+            <option value="10" selected>Change Grid Size (Default is 10x10)</option>
+            <option value="20">20x20 Grid Size</option>
+            <option value="30" >30x30 Grid Size</option>
+            <option value="40">40x40 Grid Size</option>
+            <option value="50">50x50 Grid Size</option>
+        </select>
+    </div>
+
+</body>
+
+</html>

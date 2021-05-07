@@ -1,0 +1,29 @@
+body {
+    background-image: url("background1.jpg");
+}
+
+h1 {
+    font-family: 'verdana';
+}
+
+div#board {
+    width: 600px;
+    height: 500px;
+}
+
+div#board>div {
+    border: 2px solid;
+    float: left;
+    background-image: url("back2.jpg");
+}
+
+div {
+    width: 120px;
+    height: 120px;
+    color: white;
+}
+
+img {
+    max-width: 120px;
+    height: 120px;
+}
